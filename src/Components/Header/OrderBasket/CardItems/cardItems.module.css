@@ -1,0 +1,50 @@
+.wrapper    {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 0.2rem solid silver;
+    overflow: hidden;
+}
+
+.title  {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.category   {
+    font-size: 0.9rem;
+}
+.img    {
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    transition: transform 500ms ease;
+}
+.img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.price  {
+    color: green;
+    font-size: 1rem;
+}
+.delete {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.card   {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30rem;
+}
+.delete svg {
+    padding-top: 0.5rem;
+    transition: transform 400ms ease;
+
+}
+.delete svg:hover   {
+    cursor: pointer;
+    transform: scale(1.15);
+}

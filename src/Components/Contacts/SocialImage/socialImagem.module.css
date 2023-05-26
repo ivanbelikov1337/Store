@@ -1,0 +1,18 @@
+.socialMediaLinks {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto 0;
+    padding-bottom: 2rem;
+}
+.linkImg {
+    width: 30px;
+    height: 30px;
+    color: red;
+    transition: transform 500ms ease;
+
+}
+.linkImg:hover   {
+    cursor: pointer;
+    transform: scale(1.25);
+}

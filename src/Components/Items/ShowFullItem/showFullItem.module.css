@@ -1,0 +1,103 @@
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.img {
+    width: 10rem;
+    height: 10rem;
+    padding: 0.5rem;
+    transition: transform 500ms ease;
+}
+
+.img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: green;
+    padding-right: 1rem;
+}
+
+.wrapperPrice {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.description {
+    overflow: hidden;
+    height: 9.2rem;
+    font-size: 1.3rem;
+}
+
+
+
+.item {
+    display: grid;
+    grid-template-rows: 11rem 20rem;
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    background-color: white;
+    margin: 5% auto;
+
+
+}
+
+.wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+
+}
+
+.likesRate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

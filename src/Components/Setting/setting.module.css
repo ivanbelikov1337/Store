@@ -1,0 +1,229 @@
+.wrapper {
+    margin-top: 3rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.2rem silver;
+}
+.card {
+    display: block;
+    width: 100%;
+    margin: auto;
+    background: #03a9f4;
+    color: white;
+
+}
+.cardHeader {
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+}
+.cardBody {
+    padding: 1rem 5rem 5rem;
+}
+@media screen and (max-width: 900px) {
+    .card__body {
+        padding: 5rem 2rem 7rem;
+    }
+}
+.toolbarItem {
+    box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.toolbar__item:not(:last-of-type) {
+    margin-right: .5rem;
+}
+.toolbar__item:hover, .toolbar__item:focus {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: inset 0px 0px 3px rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.title  {
+    text-align: center;
+    font-size: 2rem;
+}
+.container {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+    .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+}
+.grid {
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+}
+@media screen and (max-width: 900px) {
+    .grid {
+        max-width: 100%;
+    }
+}
+.toggle {
+    max-width: 62px;
+    height: 32px;
+    background: #7059e2;
+    border-radius: 999px;
+    position: relative;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.toggleHandle {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.toggle.is-on {
+    background: white;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.toggle.is-on .toggleHandle {
+    left: 34px;
+    background: #9c88ff;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.formItem {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.formItemControl {
+    width: 40%;
+    text-align: right;
+}
+.control {
+    background: transparent;
+    color: inherit;
+    display: block;
+    width: 100%;
+    border-radius: .3rem;
+    padding: .4rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.control:hover, .control:focus {
+    background: #7059e2;
+    border-color: transparent;
+}
+.radio {
+    display: inline-block;
+}
+.radioItem {
+    display: inline-block;
+    color: #7059e2;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.radioItem:not(:last-of-type) {
+    margin-right: 1rem;
+}
+.radioItem.isActive {
+    color: white;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.uTextSmall {
+    font-size: 1.3rem;
+}
+.uTextNormal {
+    font-size: 1.6rem;
+}
+.uTextLarge {
+    font-size: 2.2rem;
+}
+.slider {
+    width: 100%;
+    position: relative;
+}
+.sliderInput {
+    margin-top: 1rem;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #7059e2;
+    outline: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.button {
+    border: 0;
+    background: white;
+    color: #9c88ff;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 700;
+    border-radius: .4rem;
+    padding: .6rem 1.4rem;
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.button:hover, .button:focus {
+    background: #7059e2;
+    color: white;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 3rem;
+}
+.buttons .button {
+    margin-left: 1rem;
+}
+.credits {
+    position: fixed;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    padding: 0 1.5rem;
+}
+.link--dribbble {
+    color: #ea4c89;
+}
+
+

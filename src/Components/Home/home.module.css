@@ -1,0 +1,21 @@
+.presentation {
+    margin: 3rem 0;
+    width: 100%;
+    height: 40rem;
+    background-blend-mode: multiply;
+    background-size: cover ;
+    background: #A9A9A9FF url('../../img/shop.jpg') no-repeat;
+    box-shadow: 0.1rem 0.1rem 1rem 0.2rem silver;
+}
+
+.presentation::after {
+    content: "The best products for you";
+    position: absolute;
+    top: 14rem;
+    left: 7rem;
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    width: 30rem;
+    color: white;
+}

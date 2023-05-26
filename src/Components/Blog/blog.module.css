@@ -1,0 +1,79 @@
+.container {
+    margin-top: 3rem;
+    border-radius: 1em;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 2rem;
+}
+.title  {
+    padding-bottom: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+
+.horizontal {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 22rem);
+    grid-template-rows: repeat(10, 21rem);
+
+}
+
+.cardContent {
+    box-shadow: 0.1rem 0.1rem 1rem 0.2rem silver;
+    padding: 1rem;
+    position: relative;
+    width: 21rem;
+    height: 20rem;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.05);
+    transition: all 0.25s ease;
+}
+
+.cardType {
+    display: flex;
+    gap: 0.5rem;
+
+    width: 10rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0;
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    height: 2.1rem;
+    overflow: hidden;
+}
+
+.cardRimeToRead {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+.cardRimeToRead:hover   {
+    cursor: pointer;
+}
+.cardExcerpt  {
+    font-size: 1rem;
+    padding-top: 1rem;
+    font-weight: 600;
+    height: 14rem;
+    overflow: hidden;
+}

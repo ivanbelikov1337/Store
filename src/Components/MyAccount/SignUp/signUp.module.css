@@ -1,0 +1,153 @@
+.btn {
+    background: hsl(86, 76%, 71%);
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: 26rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btnSubmit  {
+    background: hsl(86, 76%, 71%);
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    border: none;
+
+}
+.btnSubmit:hover    {
+    cursor: pointer;
+}
+
+
+.btnSocial {
+    padding-left: 64px;
+    position: relative;
+    z-index: 1;
+}
+
+.fa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 3.2;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.btnFacebook {
+    background-color: hsl(221, 44%, 41%);
+}
+
+.btnTwitter {
+    background-color: hsl(206, 82%, 63%);
+}
+
+.btnGoogle {
+    background-color: hsl(7, 71%, 55%);
+}
+
+.btnLinkedin {
+    background-color: hsl(196, 100%, 43%);
+}
+
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    position: relative;
+}
+
+.signup {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: darkgrey;
+
+}
+
+.signupConnect,
+.signupClassic {
+    width: 45%;
+    padding: 30px 50px;
+}
+
+.signupConnect {
+    background: linear-gradient(134deg, hsl(44, 96%, 65%), hsl(34, 95%, 45%));
+}
+.errorEmail {
+    font-size: 1rem;
+    color: red;
+}
+.successfully   {
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8rem;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: forestgreen;
+    animation: wheel 2s ;
+    animation-fill-mode: backwards;
+    z-index: 100;
+    border-radius: 2rem;
+}
+.successfully::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-top: 0.5rem solid transparent;
+    border-bottom: 2.5rem solid transparent;
+    border-left: 3rem solid forestgreen;
+    right: -3rem;
+    bottom: 2rem;
+}
+@keyframes wheel {
+    from { transform: translateX(20rem) rotate(0);}
+    to { transform: translateY(0) rotate(0.1deg); }
+}
+.logIn  {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.logInLink  {
+    border-bottom: 0.2rem   solid silver;
+    width: 10rem;
+    padding-bottom: 0.6rem;
+    transition: transform 500ms ease;
+}
+
+
+.logInLink:hover {
+    transform: scale(1.1) translate3d(-1px, 5px, 0);
+    border-bottom: 0.2rem   solid forestgreen;
+}

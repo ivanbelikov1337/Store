@@ -1,0 +1,38 @@
+li  {
+    list-style: none;
+    display: initial;
+    margin-left: 4rem;
+    cursor: pointer;
+    transition:  opacity 500ms ease;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+li:hover    {
+    opacity: 0.5;
+}
+.shopp  {
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+
+}
+.shopp:hover {
+    color: #dc3d3d;
+    transform: scale(1.5);
+}
+.nav    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inactive   {
+    text-decoration: none;
+    outline: none;
+    color: black;
+
+}
+
+.active {
+    color: gold;
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,111 @@
+.logo {
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.close:hover    {
+    cursor: pointer;
+}
+
+.presentation::before {
+    content: "At low prices";
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 40rem;
+    left: 7rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    width: 30rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header{
+    position: relative;
+}
+.shoppCard  {
+    position: absolute;
+    overflow: auto;
+    top: 3.5rem;
+    right: 0;
+    width: 30rem;
+    min-height: 10rem;
+    max-height: 25.2rem;
+    background-color: #fafafa;
+    -webkit-box-shadow: 7px 7px 15px -1px rgba(168,144,168,1);
+    -moz-box-shadow: 7px 7px 15px -1px rgba(168,144,168,1);
+    box-shadow: 7px 7px 15px -1px rgba(168,144,168,1);
+    z-index: 20;
+}
+.creatOrder {
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    transition: color, transform 500ms ease;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    text-decoration: none;
+    outline: none;
+    color: #222222;
+    z-index: 300;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: darkgrey;
+}
+.creatOrder:hover   {
+    background-color: green;
+    cursor: pointer;
+
+}
+.wrapper    {
+    position: relative;
+}
+.userCard   {
+    color: #222222;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1rem;
+    position: absolute;
+    font-weight: 600;
+    gap: 1rem;
+    top: 3.5rem;
+    right: 0;
+    width: 7rem;
+    height: 7rem;
+    background-color: #fafafa;
+    -webkit-box-shadow: 7px 7px 15px -1px rgba(168,144,168,1);
+    -moz-box-shadow: 7px 7px 15px -1px rgba(168,144,168,1);
+    box-shadow: 7px 7px 15px -1px rgba(168,144,168,1);
+    z-index: 30;
+}
+.logOut {
+    display: flex;
+    gap: 2rem;
+}
+.logOut:hover   {
+    cursor: pointer;
+}
+.myAccount:hover    {
+    cursor: pointer;
+}
+.setting    {
+    display: flex;
+    gap: 1.6rem;
+}
+.setting:hover  {
+    cursor: pointer;
+}
