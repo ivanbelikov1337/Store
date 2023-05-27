@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/store/static/css/main.a162d432.css",
-    "main.js": "/store/static/js/main.8989972e.js",
-    "static/js/787.38e572c0.chunk.js": "/store/static/js/787.38e572c0.chunk.js",
-    "static/media/shop.jpg": "/store/static/media/shop.9501e8e5fe243cb1b7ed.jpg",
-    "static/media/Contact-us-mobile-hand.jpg": "/store/static/media/Contact-us-mobile-hand.8babdf2bfc22561e4226.jpg",
-    "static/media/chris-pratt-photo-u47.jpeg": "/store/static/media/chris-pratt-photo-u47.468fe72e7b480b8986a5.jpeg",
-    "static/media/tall-celebrity-men13-1.jpg": "/store/static/media/tall-celebrity-men13-1.8303807e718868b7eae5.jpg",
-    "static/media/ben-affleck-recording-artists-and-groups-photo-u103.jpeg": "/store/static/media/ben-affleck-recording-artists-and-groups-photo-u103.88f4bcd021528e5ec797.jpeg",
-    "static/media/icons8-basket.gif": "/store/static/media/icons8-basket.9d87f7596a9255d73b18.gif",
-    "index.html": "/store/index.html",
-    "main.a162d432.css.map": "/store/static/css/main.a162d432.css.map",
-    "main.8989972e.js.map": "/store/static/js/main.8989972e.js.map",
-    "787.38e572c0.chunk.js.map": "/store/static/js/787.38e572c0.chunk.js.map"
+    "main.css": "/static/css/main.95647a85.css",
+    "main.js": "/static/js/main.ee0e9a59.js",
+    "static/js/787.38e572c0.chunk.js": "/static/js/787.38e572c0.chunk.js",
+    "static/media/shop.jpg": "/static/media/shop.9501e8e5fe243cb1b7ed.jpg",
+    "static/media/Contact-us-mobile-hand.jpg": "/static/media/Contact-us-mobile-hand.8babdf2bfc22561e4226.jpg",
+    "static/media/chris-pratt-photo-u47.jpeg": "/static/media/chris-pratt-photo-u47.468fe72e7b480b8986a5.jpeg",
+    "static/media/tall-celebrity-men13-1.jpg": "/static/media/tall-celebrity-men13-1.8303807e718868b7eae5.jpg",
+    "static/media/ben-affleck-recording-artists-and-groups-photo-u103.jpeg": "/static/media/ben-affleck-recording-artists-and-groups-photo-u103.88f4bcd021528e5ec797.jpeg",
+    "static/media/icons8-basket.gif": "/static/media/icons8-basket.9d87f7596a9255d73b18.gif",
+    "index.html": "/index.html",
+    "main.95647a85.css.map": "/static/css/main.95647a85.css.map",
+    "main.ee0e9a59.js.map": "/static/js/main.ee0e9a59.js.map",
+    "787.38e572c0.chunk.js.map": "/static/js/787.38e572c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a162d432.css",
-    "static/js/main.8989972e.js"
+    "static/css/main.95647a85.css",
+    "static/js/main.ee0e9a59.js"
   ]
 }
